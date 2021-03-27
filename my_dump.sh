@@ -6,7 +6,7 @@
 #    By: mschimme <mschimme@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/02/27 14:20:07 by mschimme          #+#    #+#              #
-#    Updated: 2021/03/14 20:35:00 by mschimme         ###   ########.fr        #
+#    Updated: 2021/03/27 22:01:26 by mschimme         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@
 # Пример ./my_dump.sh 10, 20, 30, 10
 
 champ="/tmp/champ1.cor"
-my_cmd="vimdiff"
+my_cmd="diff"
 
 if [[ $1 == [0-9]*\-[0-9]* ]]; then
 	min=$(echo $1 | cut -d '-' -f 1)
