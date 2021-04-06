@@ -6,7 +6,7 @@
 #    By: mschimme <mschimme@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/02/27 14:20:07 by mschimme          #+#    #+#              #
-#    Updated: 2021/04/03 19:27:27 by mschimme         ###   ########.fr        #
+#    Updated: 2021/04/06 22:44:13 by mschimme         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@
 # Пример ./my_dump.sh 30-20
 # Пример ./my_dump.sh 10, 20, 30, 10
 
-champ="/tmp/champ1.cor /tmp/champ2.cor"
+champ="/tmp/champ1.cor"
 my_cmd="vimdiff"
 # Обычно, это наш (ваш) корвар; указывать с ключом -d/-dump
 cwr_one="../corewar -dump"
